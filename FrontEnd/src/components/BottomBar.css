@@ -1,0 +1,27 @@
+.gradient_anim_btn {
+  width: 100%;
+    background: -webkit-linear-gradient(225deg, #171945, #686a82,             
+    #171945) 10% 10% / 50% 50%;
+    background-size: 200% auto;
+    -webkit-animation: gradient_move 10s ease infinite;
+    animation: gradient_move 10s ease infinite;
+  }
+
+  @-webkit-keyframes gradient_move {
+    0%{background-position: 0% 92%}
+    50%{background-position: 100% 9%}
+    100%{background-position: 0% 92%}
+  }
+  
+  @keyframes gradient_move {
+    0%{background-position: 0% 92%}
+    50%{background-position: 100% 9%}
+    100%{background-position: 0% 92%}
+  }
+
+  .modalformbox{
+    display: grid;
+    gap: 14px;
+    padding: 4%;
+    height: auto;
+}

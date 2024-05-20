@@ -1,0 +1,69 @@
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 8px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+
+  /**************   CSS for gradient div   ****************/
+
+
+  .gradient_anim_btn {
+    background: -webkit-linear-gradient(225deg, #6392ec, rgb(246, 247, 253),             
+    #6392ec) 0% 0% / 300% 300%;
+    background-size: 200% auto;
+    -webkit-animation: gradient_move 3s ease infinite;
+    animation: gradient_move 3s ease infinite;
+  }
+
+  @-webkit-keyframes gradient_move {
+    0%{background-position: 0% 92%}
+    50%{background-position: 100% 9%}
+    100%{background-position: 0% 92%}
+  }
+  
+  @keyframes gradient_move {
+    0%{background-position: 0% 92%}
+    50%{background-position: 100% 9%}
+    100%{background-position: 0% 92%}
+  }
